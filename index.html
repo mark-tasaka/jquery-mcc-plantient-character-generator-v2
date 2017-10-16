@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>GitHub Mutant Crawl Classics Plantient Character Generator</title>
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>  
+    
+	<meta charset="UTF-8">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="author" content="Mark Tasaka 2017">
+
+
+	<link rel="stylesheet" href="css/dcc_github.css"  />
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta charset="utf-8" />
+
+
+	</head>
+	
+	
+<body>
+
+
+	<section>
+		
+		<h1>Mutant Crawl Classics jQuery Plantient Character Generator version 2</h1>
+		
+		<p>Welcome to the Launch Page of the Mutant Crawl Classics  Plantient Character Generator.  Please make a selection below to generate a randomly generated Plantient.  The Plantient generator is designed using JavaScript.</p>
+        
+		<p>For more information on the Mutant Crawl Classics Game System, please visit:</p>
+		
+		<p><a href="http://goodman-games.com/" target="_blank" class="links">http://goodman-games.com/</a></p>
+		
+		<p>To see the generator used in the contents of the web, please visit:</p>
+		
+		<p><a href="http://www.oldschooladventures.org/mcc/classes/plantient/" target="_blank" class="links">http://www.oldschooladventures.org/mcc/classes/plantient/</a></p>
+		
+		
+		<h2>Plantient Character Generator</h2>
+    
+			
+				
+		<div class="content">
+		
+			<form id="myForm" action="" target="_blank">
+			
+			  <select id="level" class="dropdownmenu_mutant">
+				<option value="01" selected>Level 1</option>
+				<option value="02">Level 2</option>
+				<option value="03">Level 3</option>
+				<option value="04">Level 4</option>
+				<option value="05">Level 5</option>
+				<option value="06">Level 6</option>
+				<option value="07">Level 7</option>
+				<option value="08">Level 8</option>
+				<option value="09">Level 9</option>
+				<option value="10">Level 10</option>
+			  </select>
+			
+
+			
+			<div class="generatorb">
+				<input type="submit" value="Generate mutant" id="generate_level0_characters"/>
+
+				<input type="reset"  value="Reset" id="reset__level0_characters"/>
+				</div>
+			
+				</form>
+                </div>
+
+    </section>
+
+
+	<script>
+        
+        $("#generate_level0_characters").click(function(){
+         
+            $("#myForm").attr('action', "character/mcc_plantient_" + $("#level").val() + ".html");
+        });
+        
+	</script>
+        
+
+
+</body>
+    
+</html>

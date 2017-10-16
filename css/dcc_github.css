@@ -1,0 +1,39 @@
+/*
+Mark Tasaka, 2017
+Dungeon Crawl Classics Zero Level Character Funnel Generator
+CSS for Entry Page
+*/
+
+body {
+	font-family: sans-serif;
+}
+
+h1 {
+	text-align: center;
+}
+
+
+h2 {
+	text-align: center;
+}
+
+.links{
+	color: #000000;
+	text-decoration: none;
+}
+
+.links:hover{
+	color: #000000;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.content {	
+width: 300px;
+margin: 0px auto;
+}
+
+	
+.generatorb {
+	margin-top: 30px;
+}
